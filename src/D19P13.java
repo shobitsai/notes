@@ -16,7 +16,7 @@ class Solution{
             if(rest==0)break;
             mask=(mask | (1<<i));
             rest--;
-        }a
+        }
         // System.out.println("mask: "+mask);
         if(mask!=0)res+=String.valueOf(mask);
         for(int i=count;i<3;i++){
